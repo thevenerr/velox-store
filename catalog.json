@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "updated_at": "2026-10-27T00:00:00Z",
+  "effects": [
+    {
+      "id": "vignette",
+      "name_ru": "Виньетка",
+      "name_en": "Vignette",
+      "category": "Цвет",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Плавное затемнение краёв кадра для фокусировки на центре",
+      "description_en": "Smooth darkening of frame edges to draw focus to the center",
+      "file": "packages/vignette.vlx",
+      "size_bytes": 1357,
+      "sha256": "a661a82dc064e074d1aaf65c9a7648ea6929f39037e215235096f34aa4c250d0"
+    },
+    {
+      "id": "chromatic_aberration",
+      "name_ru": "Хроматическая аберрация",
+      "name_en": "Chromatic Aberration",
+      "category": "Искажение",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Смещение цветовых каналов RGB для эффекта аналоговой оптики или глитча",
+      "description_en": "RGB color channel shift for vintage lens or glitch aesthetic",
+      "file": "packages/chromatic_aberration.vlx",
+      "size_bytes": 1285,
+      "sha256": "909e232566321d1864c0f01408aac25ae6284e8dc275a1cc1a432a1e91518171"
+    },
+    {
+      "id": "crt_scanlines",
+      "name_ru": "Ретро ТВ",
+      "name_en": "CRT Scanlines",
+      "category": "Стилизация",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Эффект старого ЭЛТ-телевизора со строками развёртки и зернистостью",
+      "description_en": "Retro CRT television effect with scanlines and noise",
+      "file": "packages/crt_scanlines.vlx",
+      "size_bytes": 1449,
+      "sha256": "a7a33cdead2100fc528afc118b802db291c2f6bdac460d3e36ab13e9b9c6c18e"
+    },
+    {
+      "id": "wave_distortion",
+      "name_ru": "Волна",
+      "name_en": "Wave Distortion",
+      "category": "Искажение",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Волнообразное искажение кадра (эффект ряби или марева)",
+      "description_en": "Wavy frame distortion ripple effect",
+      "file": "packages/wave_distortion.vlx",
+      "size_bytes": 1282,
+      "sha256": "908770cdb52d39da0b530ba996c1028ecd11ae06d7068bf5a6de9d6bcd7df955"
+    },
+    {
+      "id": "invert",
+      "name_ru": "Негатив",
+      "name_en": "Invert Colors",
+      "category": "Цвет",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Инверсия цветовой палитры изображения",
+      "description_en": "Color palette negative inversion effect",
+      "file": "packages/invert.vlx",
+      "size_bytes": 1056,
+      "sha256": "1fdce908c89af2d75b0eae9a1391fc3e0612a2e8ce15a2c4c52f26bb0a00be45"
+    },
+    {
+      "id": "vintage_sepia",
+      "name_ru": "Винтаж",
+      "name_en": "Vintage Sepia",
+      "category": "Цвет",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Тёплый винтажный тон в стиле старой киноплёнки",
+      "description_en": "Warm vintage film tone and contrast",
+      "file": "packages/vintage_sepia.vlx",
+      "size_bytes": 1240,
+      "sha256": "50a6bc0f0d61eb042786a210d4f3a36b9451850b0cbd709d81befd3871c166de"
+    },
+    {
+      "id": "three_d_spin",
+      "name_ru": "3D Вращение",
+      "name_en": "3D Spin",
+      "category": "3D",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Эффект тонкой вращающейся 3D модели с перспективой, освещением и тенями",
+      "description_en": "Thin spinning 3D model effect with perspective, lighting and shadows",
+      "file": "packages/three_d_spin.vlx",
+      "size_bytes": 1916,
+      "sha256": "6411498e429825f25530d5426e94e20efcb03a2acb2c2a1964f0d2a6d72228ec"
+    }
+  ],
+  "plugins": [
+    {
+      "id": "easy_tts",
+      "name_ru": "Text-To-Speech",
+      "name_en": "Text-To-Speech",
+      "category": "Аудио",
+      "author": "Velox",
+      "version": "1.0",
+      "description_ru": "Озвучка текста голосом с помощью EasyTTS прямо на таймлайн",
+      "description_en": "Speech synthesis from text via EasyTTS directly to timeline",
+      "locations": ["add_menu"],
+      "file": "packages/easy_tts.vlp",
+      "size_bytes": 472,
+      "sha256": "e3ec379254611595b86af309d831678950509d5e672e6906544e171776b1ceee"
+    }
+  ]
+}
