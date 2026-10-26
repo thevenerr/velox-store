@@ -97,8 +97,8 @@
   "plugins": [
     {
       "id": "easy_tts",
-      "name_ru": "Text-To-Speech",
-      "name_en": "Text-To-Speech",
+      "name_ru": "EasyTTS",
+      "name_en": "EasyTTS",
       "category": "Аудио",
       "author": "Velox",
       "version": "1.0",
@@ -106,8 +106,8 @@
       "description_en": "Speech synthesis from text via EasyTTS directly to timeline",
       "locations": ["add_menu"],
       "file": "packages/easy_tts.vlp",
-      "size_bytes": 472,
-      "sha256": "e3ec379254611595b86af309d831678950509d5e672e6906544e171776b1ceee"
+      "size_bytes": 414,
+      "sha256": "f411022c9138265eaf571de9bf69854925f2773141cc5ea4422ec28c955d5551"
     }
   ]
 }
